@@ -92,3 +92,35 @@ footer p{
     font-weight: 600;
     font-size: 13px;
 }
+
+.navbar{
+    overflow: hidden;
+    padding: 0px 7%;
+    position: relative;
+    top: 1px;
+}
+
+a.link-button.left{
+    float: left;
+    background-image: none;
+    color: #27ae60;
+    font-size: 25px;
+}
+
+a.link-button.right{
+    float: right;
+    margin-right: 5px;
+    background-image: none;
+    color: #27ae60;
+    font-size: 25px;
+    padding-left: 0;
+}
+
+a.link-button.right:nth-child(2){
+    margin-right: 0;
+    padding-right: 4%;
+}
+
+#left{
+    padding-left: 0;
+}
